@@ -9,6 +9,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <title>weather App</title>
 </head>
 <body>
@@ -39,6 +40,8 @@
         </div>
    <div class="weather-app-temperature-container">
     <div id="icon">
+        <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png"
+        class="weather-app-icon" />
    </div>
    <div class="weather-app-temperature" id="temperature"></div>
    <div class="weather-app-unit"> °C</div>
@@ -50,5 +53,6 @@
    </main>
    </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 </html>
